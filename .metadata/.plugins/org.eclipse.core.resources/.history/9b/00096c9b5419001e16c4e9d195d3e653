@@ -1,0 +1,14 @@
+package Com.IET.beans;
+
+public class Student  {
+	private int sid;
+	private String sname;
+	private String city;
+	
+	public Student() {
+		super();
+	}
+	
+	
+
+}

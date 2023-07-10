@@ -1,0 +1,9 @@
+package com.IET.beans;
+
+public class Student {
+	
+	private int sid;
+	private String sname;
+	private Address addr;
+
+}

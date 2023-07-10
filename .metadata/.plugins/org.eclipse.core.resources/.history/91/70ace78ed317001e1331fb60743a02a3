@@ -1,0 +1,9 @@
+
+public class Team {
+	
+	private int tid;
+	private String tname;
+	private Player p1;
+	
+	
+}

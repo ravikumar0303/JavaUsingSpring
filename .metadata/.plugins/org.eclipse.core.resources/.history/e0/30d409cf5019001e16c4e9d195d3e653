@@ -1,0 +1,12 @@
+package com.IET.beans;
+
+public class Address {
+	private int aid;
+	private String street,city;
+	
+	public Address() {
+		super();
+	}
+	
+
+}

@@ -1,0 +1,7 @@
+package com.IET.dao;
+
+import com.IET.service.ProductService;
+
+public class ProductDaoImplement implements ProductService{
+
+}

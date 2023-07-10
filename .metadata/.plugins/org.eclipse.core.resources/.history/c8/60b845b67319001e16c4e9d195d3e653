@@ -1,0 +1,7 @@
+package com.IET.dao;
+
+
+public class ProductDaoImplement implements ProductDao{
+	
+
+}

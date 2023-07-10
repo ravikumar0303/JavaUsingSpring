@@ -1,0 +1,18 @@
+package com.IET.test;
+
+import com.IET.beans.*;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+
+public class TestSpring {
+	
+	public static void main(String[] args) {
+		
+		//HelloWorld h=new HelloWorld();		
+		//h.Hello();
+		
+		XmlBeanFactory bf=new XmlBeanFactory(new  ClassPathResousre("springconfig.xml")) ;
+//				 XmlBeanFactory bf=new XmlBeanFactory(new ClassPathResource("springconfig.xml"));	
+		
+	}
+
+}

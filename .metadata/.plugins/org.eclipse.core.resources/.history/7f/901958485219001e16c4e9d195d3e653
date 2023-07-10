@@ -1,0 +1,14 @@
+package com.IET.beans;
+
+import org.springframework.context.ApplicationContext;
+
+public class AnnotationTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ApplicationContext act=new ClassPathXmlApplicationContext("springconfig");
+		
+	}
+
+}

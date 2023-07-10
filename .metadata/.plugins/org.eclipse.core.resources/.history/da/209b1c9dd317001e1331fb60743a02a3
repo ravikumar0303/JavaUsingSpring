@@ -1,0 +1,21 @@
+
+public class Team {
+	
+	private int tid;
+	private String tname;
+	private Player p1;
+	
+	public Team(int tid, String tname, Player p1) {
+		super();
+		this.tid = tid;
+		this.tname = tname;
+		this.p1 = p1;
+	}
+
+	public Team() {
+		super();
+	}
+	
+	
+	
+}

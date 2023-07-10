@@ -1,0 +1,10 @@
+package com.IET.beans;
+
+public class Student {
+	
+	private int sid;
+	private String sname;
+	@AutoWired
+	private Address addr;
+
+}

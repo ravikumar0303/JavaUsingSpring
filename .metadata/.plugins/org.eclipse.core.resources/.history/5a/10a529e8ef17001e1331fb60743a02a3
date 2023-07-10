@@ -1,0 +1,8 @@
+
+public class TestPlayer_Team {
+	
+	public static void main(String[] args) {
+		ApplicationCotext act=new ClassPathXmlApplicationCntext("springconfig.xml");
+	}
+
+}

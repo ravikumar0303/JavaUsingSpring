@@ -1,0 +1,21 @@
+package com.IET.dao;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.IET.beans.Product;
+
+
+@Repository
+public class ProductDaoImpl implements ProductDao{
+	
+	
+	
+
+	public List<Product> FinadAllProduct() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

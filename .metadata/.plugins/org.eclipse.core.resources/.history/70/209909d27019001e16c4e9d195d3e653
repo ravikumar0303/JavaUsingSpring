@@ -1,0 +1,21 @@
+package com.IET.test;
+
+import java.util.*;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class SpringJDBCTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+
+		ApplicationContext apc = new ClassPathXmlApplicationContext("springconfig.xml");
+       
+		
+		ProductService ps=apc.getBean("ProductServiceImplement")
+	}
+
+}

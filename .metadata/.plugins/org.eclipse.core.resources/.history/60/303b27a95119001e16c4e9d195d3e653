@@ -1,0 +1,12 @@
+package com.IET.beans;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Student {
+	
+	private int sid;
+	private String sname;
+	@Autowired
+	private Address addr;
+
+}

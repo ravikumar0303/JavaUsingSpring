@@ -1,0 +1,21 @@
+package com.IET.service;
+
+public class IETService {
+	
+	
+	public int method2() {
+		System.out.println("method 2!!");
+		return 40;
+				
+	}
+
+	
+	public void getData(int j) {
+		System.out.println("getData");
+	}
+	public String getietData(int x) {
+		System.out.println("getirtData"+x);
+		
+		return "IET";
+	}
+}

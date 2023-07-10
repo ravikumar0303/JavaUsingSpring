@@ -1,0 +1,12 @@
+
+public class Team {
+	
+	private int pid;
+	private String pname;
+	
+	public Team() {
+		super();
+	}
+	
+
+}

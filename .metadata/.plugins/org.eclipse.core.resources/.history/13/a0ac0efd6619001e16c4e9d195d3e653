@@ -1,0 +1,23 @@
+package com.IET.test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.IET.beans.*;
+import com.IET.service.*;
+public class AspectIETTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		ApplicationContext act=new ClassPathXmlApplicationContext("springconfig.xml");
+		
+		IETStudent st=(IETStudent)act.getBean("iETStudent");
+		st.method1();
+		st.getData("ravi");
+		IETService is=(IETService)act.getBean("iETService");
+		is.method2();
+
+	}
+
+}

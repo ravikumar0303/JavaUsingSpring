@@ -1,0 +1,8 @@
+
+public class Team {
+	
+	private int pid;
+	private String pname;
+	
+
+}
