@@ -1,6 +1,0 @@
-com\IET\services\ProductService.class
-com\IET\services\ProductServiceImpl.class
-com\IET\controller\ProductController.class
-com\IET\dao\ProductDaoImpl.class
-com\IET\beans\Product.class
-com\IET\dao\ProductDao.class
