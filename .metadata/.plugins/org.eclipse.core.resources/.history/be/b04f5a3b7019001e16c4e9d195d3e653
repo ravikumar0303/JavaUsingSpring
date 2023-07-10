@@ -1,9 +1,0 @@
-package com.IET.service;
-
-import com.IET.dao.ProductDao;
-
-public class ProductServiceImplement implements ProductService {
-	@Autowired
-	private ProductDao pdao;
-
-}

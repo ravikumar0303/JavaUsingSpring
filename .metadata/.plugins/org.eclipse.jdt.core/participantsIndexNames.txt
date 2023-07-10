@@ -1,3 +1,0 @@
-INDEX VERSION 1.132
-C:\AdvJavaSpring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2599986974.index
-\Model_view_controller\src\main\java

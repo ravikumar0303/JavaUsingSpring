@@ -1,7 +1,0 @@
-package com.IET.dao;
-
-public interface ProductDao {
-
-	void save();
-
-}

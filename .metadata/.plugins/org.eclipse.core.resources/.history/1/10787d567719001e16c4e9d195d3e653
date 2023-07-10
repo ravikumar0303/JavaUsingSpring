@@ -1,9 +1,0 @@
-package com.IET.dao;
-
-import com.IET.beans.Product;
-
-public interface ProductDao {
-
-	void save(Product p);
-
-}
